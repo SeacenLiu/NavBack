@@ -1,5 +1,4 @@
 # NavBack
-记下iOS开发中，关于导航栏右滑返回的代码
+关于导航栏应用的代码，用于保存方便复用
 
-[学习连接](https://juejin.im/post/5adeda3051882567336a5dc9)
-
+[iOS右滑返回手势深度全解和最佳实施方案](https://juejin.im/post/5adeda3051882567336a5dc9)

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AViewController.h
 //  右滑返回手势
 //
 //  Created by SeacenLiu on 2018/5/2.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AViewController : UIViewController
 
 
 @end

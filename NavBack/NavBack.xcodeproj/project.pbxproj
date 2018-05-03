@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1421E316209B0DA900A4C208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E315209B0DA900A4C208 /* main.m */; };
-		1421E335209B0DE700A4C208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E31C209B0DE600A4C208 /* ViewController.m */; };
+		1421E335209B0DE700A4C208 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E31C209B0DE600A4C208 /* AViewController.m */; };
 		1421E336209B0DE700A4C208 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E31E209B0DE600A4C208 /* CViewController.m */; };
 		1421E337209B0DE700A4C208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E31F209B0DE600A4C208 /* AppDelegate.m */; };
 		1421E338209B0DE700A4C208 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E320209B0DE600A4C208 /* EViewController.m */; };
@@ -26,14 +26,14 @@
 		1421E303209B0DA900A4C208 /* NavBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1421E314209B0DA900A4C208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1421E315209B0DA900A4C208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1421E31C209B0DE600A4C208 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1421E31C209B0DE600A4C208 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		1421E31D209B0DE600A4C208 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
 		1421E31E209B0DE600A4C208 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		1421E31F209B0DE600A4C208 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1421E320209B0DE600A4C208 /* EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
 		1421E321209B0DE600A4C208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1421E322209B0DE600A4C208 /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
-		1421E323209B0DE600A4C208 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1421E323209B0DE600A4C208 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		1421E324209B0DE700A4C208 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		1421E325209B0DE700A4C208 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		1421E327209B0DE700A4C208 /* SCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationController.h; sourceTree = "<group>"; };
@@ -79,11 +79,12 @@
 		1421E305209B0DA900A4C208 /* NavBack */ = {
 			isa = PBXGroup;
 			children = (
-				1421E34C209B0E3500A4C208 /* LaunchScreen.storyboard */,
+				1421E326209B0DE700A4C208 /* utility */,
 				1421E34B209B0E3500A4C208 /* Main.storyboard */,
 				1421E333209B0DE700A4C208 /* AppDelegate.h */,
 				1421E31F209B0DE600A4C208 /* AppDelegate.m */,
-				1421E321209B0DE600A4C208 /* Assets.xcassets */,
+				1421E323209B0DE600A4C208 /* AViewController.h */,
+				1421E31C209B0DE600A4C208 /* AViewController.m */,
 				1421E324209B0DE700A4C208 /* BViewController.h */,
 				1421E325209B0DE700A4C208 /* BViewController.m */,
 				1421E31D209B0DE600A4C208 /* CViewController.h */,
@@ -92,11 +93,10 @@
 				1421E322209B0DE600A4C208 /* DViewController.m */,
 				1421E334209B0DE700A4C208 /* EViewController.h */,
 				1421E320209B0DE600A4C208 /* EViewController.m */,
-				1421E326209B0DE700A4C208 /* utility */,
-				1421E323209B0DE600A4C208 /* ViewController.h */,
-				1421E31C209B0DE600A4C208 /* ViewController.m */,
+				1421E321209B0DE600A4C208 /* Assets.xcassets */,
 				1421E314209B0DA900A4C208 /* Info.plist */,
 				1421E315209B0DA900A4C208 /* main.m */,
+				1421E34C209B0E3500A4C208 /* LaunchScreen.storyboard */,
 			);
 			path = NavBack;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 			files = (
 				1421E33B209B0DE700A4C208 /* BViewController.m in Sources */,
 				1421E337209B0DE700A4C208 /* AppDelegate.m in Sources */,
-				1421E335209B0DE700A4C208 /* ViewController.m in Sources */,
+				1421E335209B0DE700A4C208 /* AViewController.m in Sources */,
 				1421E316209B0DA900A4C208 /* main.m in Sources */,
 				1421E33A209B0DE700A4C208 /* DViewController.m in Sources */,
 				1421E33C209B0DE800A4C208 /* SCNavigationController.m in Sources */,
